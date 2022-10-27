@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:themovie_db/theme/app_button_style.dart';
-//import 'package:themovie_db/widgets/main_screen/main_screen_widget.dart';
+import 'package:themovie_db/widgets/main_screen/main_screen_widget.dart';
 
 class AuthWidget extends StatefulWidget {
   const AuthWidget({Key? key}) : super(key: key);
@@ -63,7 +63,7 @@ class _HeaderWidget extends StatelessWidget {
 }
 
 /*
-Это я вынес пару кноаок в отдельный виджет потому что так чище и понятнее
+Это я вынес пару кнопок в отдельный виджет потому что так чище и понятнее
 читать написанный код.
 */
 class SomeButtons extends StatelessWidget {
