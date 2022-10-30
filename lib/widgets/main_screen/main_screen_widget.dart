@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:themovie_db/resources/resources.dart';
+//import 'package:themovie_db/resources/resources.dart';
 import 'package:themovie_db/widgets/movie_list/movie_list_widget.dart';
 
 class MainScreenWidget extends StatefulWidget {

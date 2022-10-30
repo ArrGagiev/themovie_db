@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /*
 Тут мы создали 2 абстрактных класса, хранящие настройки стиля кнопки.
-Это очень удобно, ведь можно просто так вызвать нужный стил и работать чисто.
+Это очень удобно, ведь можно просто так вызвать нужный стиль и работать чисто.
 */
 abstract class AppButtonTextStyle {
   static const Color themeColor = Color(0xFF01b4e4);

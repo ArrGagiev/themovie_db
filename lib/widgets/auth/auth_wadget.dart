@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:themovie_db/theme/app_button_style.dart';
-import 'package:themovie_db/widgets/main_screen/main_screen_widget.dart';
+//import 'package:themovie_db/widgets/main_screen/main_screen_widget.dart';
 
 class AuthWidget extends StatefulWidget {
   const AuthWidget({Key? key}) : super(key: key);
@@ -27,7 +27,7 @@ class _AuthWidgetState extends State<AuthWidget> {
 }
 
 /*
-Этот виджет по сути хранил ЛистВью (наш скролл)
+Этот виджет по сути хранит ЛистВью (наш скролл)
 и транслирует на экран иерархию других виджетов. 
 */
 class _HeaderWidget extends StatelessWidget {
