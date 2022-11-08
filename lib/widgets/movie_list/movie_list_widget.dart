@@ -16,7 +16,7 @@ class Movie {
 }
 
 class MovieListWidget extends StatefulWidget {
-  MovieListWidget({Key? key}) : super(key: key);
+  const MovieListWidget({Key? key}) : super(key: key);
 
   @override
   State<MovieListWidget> createState() => _MovieListWidgetState();
@@ -112,6 +112,7 @@ class _MovieListWidgetState extends State<MovieListWidget> {
     setState(() {});
   }
 
+  //-----------------------------------------------------------initState()
   @override
   void initState() {
     super.initState();

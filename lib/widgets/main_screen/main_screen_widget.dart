@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:themovie_db/resources/resources.dart';
 import 'package:themovie_db/widgets/movie_list/movie_list_widget.dart';
 
 class MainScreenWidget extends StatefulWidget {
@@ -41,10 +40,10 @@ class _MainScreenWidgetState extends State<MainScreenWidget> {
       //тут мы отображаем в центре боди, виджет с текущим выбранным индексом.
       body: IndexedStack(
         index: _selectedCurrentTab,
-        children: [
-          const Text('4oto'),
+        children: const [
+          Text('xlml'),
           MovieListWidget(), //страница фильмов
-          const Text('Serials'),
+          Text('Serials'),
         ],
       ),
 
