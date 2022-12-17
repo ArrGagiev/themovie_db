@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:themovie_db/widgets/movie_list/movie_list_widget.dart';
+import 'package:json_serializable/json_serializable.dart';
 
 class MainScreenWidget extends StatefulWidget {
   const MainScreenWidget({Key? key}) : super(key: key);
